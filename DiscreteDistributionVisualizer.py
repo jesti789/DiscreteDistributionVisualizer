@@ -1,8 +1,8 @@
 import streamlit as st
 
-from Poisson import plot_poisson
-from Binomial import plot_binomial
-from Hypergeometric import plot_hypergeometric
+from Poisson_func import plot_poisson
+from Binomial_func import plot_binomial
+from Hypergeometric_func import plot_hypergeometric
 
 st.title("Discrete Distribution Visualizer")
 dist = st.selectbox("Choose a distribution:", ["Poisson", "Binomial", "Hypergeometric"])
